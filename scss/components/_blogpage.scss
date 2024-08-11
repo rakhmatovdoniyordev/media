@@ -1,0 +1,46 @@
+.content{
+    margin: 67px 0;
+    p{
+        font-family: $font-by;
+        font-size: 32px;
+        font-weight: 700;
+    }
+    .content__wrapper{
+        margin-top: 40px;
+        @include df(none, none, 33px, column);
+        .content__card{
+            @include df(none, center, 10px, none);
+            background: $bg;
+            border-radius: 20px;
+            padding: 30px 35px;
+            .content__text{
+                width: 80%;
+                .content__title{
+                    font-size: 24px;
+                    font-weight: 600;
+                    font-family: $font-by;
+                    margin-bottom: 44px;
+                }
+                .content__desc{
+                    font-family: $font-by;
+                    font-weight: 300;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 800px){
+    .content{
+        margin: 30px 0;
+        .content__wrapper{
+            .content__card{
+                .content__img{
+                    display: none;
+                }
+
+            }
+        }
+    }
+}

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mocom</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/main.min.css">
+</head>
+<body>
+
+    <div class="loader"></div>
+
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="navbar__logo">
+                    <img src="./assets/logo.svg" alt="">
+                </div>
+                <ul class="navbar__collection">
+                    <li class="navbar__item">
+                        <a href="#" class="navbar__link">
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#" class="navbar__link">
+                            <span>Shop all</span>
+                        </a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="blog/blog.html" class="navbar__link">
+                            <span>Blog</span>
+                        </a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="about/about.html" class="navbar__link">
+                            <span>About Us</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="navbar__search">
+                    <input type="search" placeholder="Search Product">
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                </div>
+                <div onclick="navbarToggle()" class="navbar__menu">
+                    <a href="#"><i class="fa-solid fa-bars"></i></a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero__wrapper">
+                    <div class="hero__text">
+                        <h1>Mobile</h1>
+                        <p class="hero__title">Backcover</p>
+                        <p class="hero__suptitle">Tempered Glass</p>
+                        <button class="hero__btn">Shop all !</button>
+                    </div>
+                    <div class="hero__img">
+                        <img src="./assets/hero.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="products">
+            <div class="container">
+                <div class="products__wrapper">
+                    <div class="products__card">
+                        <div class="products__img">
+                            <img src="./assets/products.png" alt="">
+                        </div>
+                        <div class="products__text">
+                            <p>iPhone 13 Pro - Transparent
+                                LKR 499</p>
+                        </div>
+                    </div>
+                    <div class="products__card">
+                        <div class="products__img">
+                            <img src="./assets/products-1.png" alt="">
+                        </div>
+                        <div class="products__text">
+                            <p>Samsung S23+ - Transparent
+                                LKR 799</p>
+                        </div>
+                    </div>
+                    <div class="products__card">
+                        <div class="products__img">
+                            <img src="./assets/products-2.png" alt="">
+                        </div>
+                        <div class="products__text">
+                            <p>iPhone 14 - Transparent with magsafe
+                                LKR 799</p>
+                        </div>
+                    </div>
+                    <div class="products__card">
+                        <div class="products__img">
+                            <img src="./assets/products-3.png" alt="">
+                        </div>
+                        <div class="products__text">
+                            <p>Pixel 7 Pro - Transparent Wireless
+                                LKR 599</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about">
+            <div class="container">
+                <img class="about__image" src="./assets/top.png" alt="">
+                <p>about us</p>
+                <p class="about__title">If you’re looking for a Premium Quality
+                    Tempered Glass or Back-cover for
+                    your Device </p>
+                <p class="about__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                </p>
+                <img src="./assets/about.png" alt="">
+
+                <div class="about__shop">
+                    <div class="about__content">
+                        <div class="about__text">
+                            <p class="about__content-title">Shop Premium
+                                Tempered Glass in wholesale Price !</p>
+                            <p class="about__content-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br> LKR : 299
+                            </p>
+                            <button>Shop Tempered Glass </button>
+                        </div>
+                        <div class="about__img">
+                            <img src="./assets/about-2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="about__right">
+                        <img src="./assets/about-bg.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="choose">
+            <div class="container">
+                <img class="choose__top" src="./assets/top.png" alt="">
+                <p>Why Choose US</p>
+                <div class="choose__wrapper">
+                    <div class="choose__card">
+                        <img src="./assets/choose-1.png" alt="">
+                        <p class="choose__title">Fast Delivery</p>
+                        <p class="choose__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="choose__card">
+                        <img src="./assets/choose-2.png" alt="">
+                        <p class="choose__title">Cheap Price</p>
+                        <p class="choose__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="choose__card">
+                        <img src="./assets/choose-3.png" alt="">
+                        <p class="choose__title">Premium Quality</p>
+                        <p class="choose__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__logo">
+                    <div class="footer__img">
+                        <img src="./assets/footer.png" alt="">
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="footer__contact">
+                    <p class="footer__title">Contact us</p>
+                    <ul class="footer__collection">
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">
+                                <span>E: info@example.com</span>
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">
+                                <span>P: +94 7670000000</span>
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">
+                                <span>A: 123 Hospital rd, </span>
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">
+                                <span>Kalubowila, Dehiwela</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__links">
+                    <div class="footer__title">Useful links</div>
+                    <ul class="footer__collection">
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">
+                                <span>Shop All </span>
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">
+                                <span>Tempered Glass</span>
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">
+                                <span>Back-cover</span>
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">
+                                <span>About Us</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__socials">
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i> Whatsapp</a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i> Facebook</a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i> Instargram</a>
+                    <a href="#"><i class="fa-brands fa-tiktok"></i> Tik Tok</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="./js/app.js"></script>
+</body>
+</html>

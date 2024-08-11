@@ -1,0 +1,25 @@
+
+
+@mixin button($fs){
+    background: $main-clr;
+    color: #fff;
+    padding: 15px 32px;
+    font-family: $font-py;
+    font-size: $fs;
+    font-weight: 400;
+    border-radius: 20px;
+}
+
+@mixin df($jc, $ai, $g, $fd){
+    display: flex;
+    justify-content: $jc;
+    align-items: $ai;
+    gap: $g;
+    flex-direction: $fd;
+}
+
+@mixin dg($gtc, $gg){
+    display: grid;
+    grid-template-columns: $gtc;
+    grid-gap: $gg;
+}

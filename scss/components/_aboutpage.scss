@@ -1,0 +1,16 @@
+.aboutpage{
+    margin: 65px 0;
+    .aboutpage__wrapper{
+        @include df(none, none, 30px, column);
+        p{
+            font-family: $font-by;
+            font-weight: 300;
+        }
+        .aboutpage__title{
+            font-size: 32px;
+            font-family: $font-by;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+    }
+}
